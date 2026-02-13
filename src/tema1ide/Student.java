@@ -17,6 +17,10 @@ public class Student {
     private String gender;
 
     public Student() {
+        this.controlNumber = "";
+        this.name = "";
+        this.career = "";
+        this.gender = "";
     }
 
     public Student(String controlNumber, String name, String career, String gender) {
@@ -62,6 +66,4 @@ public class Student {
     public String toString() {
         return "Student{" + "controlNumber=" + controlNumber + ", name=" + name + ", career=" + career + ", gender=" + gender + '}';
     }
-    
-    
 }
